@@ -1,10 +1,9 @@
 body{
     font-family: 'Poppins', sans-serif;
-    /* padding: 0;
+    padding: 0;
     margin: 0;
-    background-image: url("shapes/7.png");
-    background-repeat: no-repeat; */
-    font-size: 700;
+ 
+    
 }
 
 h1{
@@ -14,13 +13,14 @@ h1{
 section{
 
     display: flex;
-    margin-left: 50px;
+    
+    margin: 0 60px;
 
 }
-#color{
+.color{
 
     color: #ff9f43;
-    font-weight: 700;
+    
 
 }
 
@@ -34,17 +34,20 @@ section{
 
 }
 .half_wide img{
-    width: 80%;
+    width: 90%;
 }
 .line_space{
     line-height:20px;
-    color: rgb(85, 79, 79);
+    color: rgb(107, 104, 104);
   
 }
 .details{
-color: rgba(143, 133, 133, 0.822);
-font-weight: lighter;
-text-align: justify;
+    color: rgba(143, 133, 133, 0.822);
+    text-align: justify;
+    font-weight: 100;
+    padding-right: 60px;
+    font-weight: 100;
+   
 
 }
 .button{
@@ -61,6 +64,8 @@ text-align: justify;
     background-repeat: no-repeat;
     background-image: url(shapes/7.png);
     background-position: center;
+    padding: 0;
+    margin: 0;
 }
 
 #about_me{
@@ -72,21 +77,67 @@ text-align: justify;
 
 #main_content{
 
-    height:40%;
-    width: 35%;
-    margin-left: 10%;
+    height:30%;
+    width: 30%;
+    margin-left: 15%;
     margin-top: 10%;
 
 }
 
 #about_details{
  
-margin-top: 20%;
-padding: 30px; 
-margin-top: 10%;
-margin-left: 200px;
+    margin-top: 10%;
+    padding: 30px; 
+    margin-left: 200px;
 
 }
 
 
+#my_recipies{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.822);
 
+}
+.recipies_details{
+    color: rgba(0, 0, 0, 0.822);
+    font-weight:100;
+    text-align: justify;
+    padding: 0px 250px 5px 250px;
+    
+}
+.food_design{
+    
+    border-radius: 30px ;
+    box-shadow:5px 8px 50px gray;
+    margin: 40px 40px 40px 40px;
+    padding: 18px 18px 18px 18px;
+    color: rgba(0, 0, 0, 0.822);
+  
+
+}
+.recipies_title{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fan_power{
+    /* margin-top: 90px; */
+    border-radius: 30px ;
+    box-shadow:5px 8px 50px gray;
+    padding-left: 15%;
+    margin: 8% 8%;
+    
+}
+footer{
+    color: hsla(30, 2%, 43%, 0.685);
+    margin-top: 30px;
+    background-color: black;
+    text-align: center;
+    line-height: 50px;
+    padding-bottom: 100px;
+    
+}
+#footr_id{
+    color: rgb(255, 255, 255);
+}
